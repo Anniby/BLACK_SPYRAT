@@ -1,0 +1,70 @@
+Unhandled Exception: The given key was not present in the dictionary.
+Stack Trace:    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at DrakeUI.Framework.FontImages.GetFontSize(Int32 iconText, Int32 imageSize)
+   at DrakeUI.Framework.FontImages.GetFont(Int32 iconText, Int32 imageSize)
+   at DrakeUI.Framework.FontImageHelper.GetFont(Int32 symbol, Int32 imageSize)
+   at DrakeUI.Framework.FontImageHelper.DrawFontImage(Graphics graphics, Int32 symbol, Int32 symbolSize, Color color, Single left, Single top, Int32 xOffset, Int32 yOffSet)
+   at DrakeUI.Framework.FontImageHelper.DrawFontImage(Graphics graphics, Int32 symbol, Int32 symbolSize, Color color, RectangleF rect, Int32 xOffset, Int32 yOffSet)
+   at DrakeUI.Framework.DrakeUIButtonIcon.OnPaint(PaintEventArgs e)
+   at System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   at System.Windows.Forms.Control.WmPaint(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------
+Unhandled Exception: Memoria insuficiente.
+Stack Trace:    en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en Eaglespy.Form1.drakeUIButtonIcon2_Click(Object sender, EventArgs e)
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en DrakeUI.Framework.DrakeUIButton.OnClick(EventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------
+Unhandled Exception: Memoria insuficiente.
+Stack Trace:    en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en Eaglespy.Form1.drakeUIButtonIcon1_Click(Object sender, EventArgs e) en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat\Form1.cs:línea 982
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en DrakeUI.Framework.DrakeUIButton.OnClick(EventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------
+Unhandled Exception: Memoria insuficiente.
+Stack Trace:    en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en Eaglespy.Form1.drakeUIButtonIcon1_Click(Object sender, EventArgs e) en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat\Form1.cs:línea 982
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en DrakeUI.Framework.DrakeUIButton.OnClick(EventArgs e)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------
+Unhandled Exception: Error al crear el formulario. Consulte Exception.InnerException para obtener más detalles. Error: Se produjo una excepción en el inicializador de tipo de 'Eagle_Spy.sockets.Data'.
+Stack Trace:    en Eagle_Spy.My.MyProject.MyForms.Create__Instance__[T](T Instance) en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat.My\MyProject.cs:línea 1214
+   en Eagle_Spy.My.MyApplication.OnCreateMainForm() en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat.My\MyApplication.cs:línea 101
+   en Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+   en Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+-------------------
+Unhandled Exception: El directorio no está vacío.
+
+Stack Trace:    en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en Eaglespy.Form1.<Login_Click>d__149.MoveNext() en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat\Form1.cs:línea 3261
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+-------------------
+Unhandled Exception: El directorio no está vacío.
+
+Stack Trace:    en System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   en System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   en Eaglespy.Form1.Form1_FormClosing(Object sender, FormClosingEventArgs e) en C:\Users\ASUS\Downloads\GTX-700 中文 RAT 付费源码 V2.4.0\GTX-700 中文 RAT 付费源码 V2.5.0\CraxsRat\Form1.cs:línea 906
+   en System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   en System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   en System.Windows.Forms.Application.ExitInternal()
+   en System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   en Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnUnhandledException(UnhandledExceptionEventArgs e)
+   en System.Windows.Forms.Application.ThreadContext.OnThreadException(Exception t)
+   en System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------
